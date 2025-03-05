@@ -36,9 +36,9 @@ nav button {
     transition: all 0.3s ease-in-out;
 }
 
-nav button:hover {
+nav button: hover {
     background: #00c6ff;
-    color: #0d0d0d;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -77,6 +77,6 @@ a {
     font-weight: bold;
 }
 
-a:hover {
+a: hover {
     text-decoration: underline;
 }
