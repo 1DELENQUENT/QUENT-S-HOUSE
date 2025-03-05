@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUENT-S-HOUSE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>QUENT-S-HOUSE</h1>
+        <nav>
+            <button onclick="showSection('resume')">RESUME</button>
+            <button onclick="showSection('youtube')">YOUTUBE</button>
+            <button onclick="showSection('instagram')">INSTAGRAM</button>
+            <button onclick="showSection('others')">OTHERS</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="resume" class="content">
+            <h2>My Resume</h2>
+            <p>All resume details will be displayed here.</p>
+        </section>
+
+        <section id="youtube" class="content hidden">
+            <h2>My YouTube Work</h2>
+            <p>Here are my three most popular YouTube videos.</p>
+            <a href="#" target="_blank">Visit My Channel</a>
+        </section>
+
+        <section id="instagram" class="content hidden">
+            <h2>My Instagram Work</h2>
+            <p>Here are my most popular and recent posts.</p>
+            <a href="#" target="_blank">Visit My Instagram</a>
+        </section>
+
+        <section id="others" class="content hidden">
+            <h2>Contact Information</h2>
+            <p>Business Number: (Your number here)</p>
+            <p>Business Email: (Your email here)</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
