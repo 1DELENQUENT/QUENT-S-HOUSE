@@ -3,66 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hojae's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Lorenzo's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+    <!-- Navbar -->
     <header>
-        <div class="logo">
-            <h1>Hojae's Portfolio</h1>
-        </div>
         <nav>
-            <button onclick="showSection('resume')">RESUME</button>
-            <button onclick="showSection('youtube')">YOUTUBE</button>
-            <button onclick="showSection('instagram')">INSTAGRAM</button>
-            <button onclick="showSection('others')">CONTACT</button>
+            <ul>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#youtube">YouTube</a></li>
+                <li><a href="#instagram">Instagram</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
+    <!-- Main Content -->
     <main>
-        <section id="resume" class="content active">
-            <div class="section-header">
-                <h2>My Resume</h2>
-                <div class="underline"></div>
-            </div>
-            <p>All resume details will be displayed here. Stay tuned for updates!</p>
+        <!-- Resume Section -->
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>Details about your professional background, skills, and experience.</p>
         </section>
-<section id="youtube" class="content">
-    <div class="section-header">
-        <h2>My YouTube Work</h2>
-        <div class="underline"></div>
-    </div>
-    <p>Here are my three most popular YouTube videos.</p>
-    
-    <div class="video-container">
-        <div class="video">
-            <!-- Video 1 -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/g_TSRrMRKWQ?si=98cYfijZRolc4qLH" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="video">
-            <!-- Video 2 -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="video">
-            <!-- Video 3 -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/eN-iIRLWfv8?si=mXyjoG6FWioDU9yS" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </div>
 
-    <a href="https://www.youtube.com/@delenquentmusiq" target="_blank">Visit My YouTube Channel</a>
-</section>       
-      <section id="others" class="content">
-            <div class="section-header">
-                <h2>Contact Information</h2>
-                <div class="underline"></div>
+        <!-- YouTube Section -->
+        <section id="youtube">
+            <h2>YouTube</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <p>Business Number: (Your number here)</p>
-            <p>Business Email: (Your email here)</p>
+        </section>
+
+        <!-- Instagram Section -->
+        <section id="instagram">
+            <h2>Instagram</h2>
+            <a href="https://www.instagram.com/YOUR_USERNAME/" target="_blank">Visit my Instagram</a>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Business Number: +1 123 456 7890</p>
+            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
         </section>
     </main>
 
-    <script src="script.js"></script>
-
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Lorenzo's Portfolio. All rights reserved.</p>
+    </footer>
 </body>
 </html>
