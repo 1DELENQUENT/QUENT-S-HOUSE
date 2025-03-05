@@ -3,41 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QUENT-S-HOUSE</title>
+    <title>Hojae's Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>QUENT-S-HOUSE</h1>
+        <div class="logo">
+            <h1>Hojae's Portfolio</h1>
+        </div>
         <nav>
             <button onclick="showSection('resume')">RESUME</button>
             <button onclick="showSection('youtube')">YOUTUBE</button>
             <button onclick="showSection('instagram')">INSTAGRAM</button>
-            <button onclick="showSection('others')">OTHERS</button>
+            <button onclick="showSection('others')">CONTACT</button>
         </nav>
     </header>
 
     <main>
-        <section id="resume" class="content">
-            <h2>My Resume</h2>
-            <p>All resume details will be displayed here.</p>
+        <section id="resume" class="content active">
+            <div class="section-header">
+                <h2>My Resume</h2>
+                <div class="underline"></div>
+            </div>
+            <p>All resume details will be displayed here. Stay tuned for updates!</p>
         </section>
+<section id="youtube" class="content">
+    <div class="section-header">
+        <h2>My YouTube Work</h2>
+        <div class="underline"></div>
+    </div>
+    <p>Here are my three most popular YouTube videos.</p>
+    
+    <div class="video-container">
+        <div class="video">
+            <!-- Video 1 -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/g_TSRrMRKWQ?si=98cYfijZRolc4qLH" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <!-- Video 2 -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <!-- Video 3 -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eN-iIRLWfv8?si=mXyjoG6FWioDU9yS" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
 
-        <section id="youtube" class="content hidden">
-            <h2>My YouTube Work</h2>
-            <p>Here are my three most popular YouTube videos.</p>
-            <a href="#" target="_blank">Visit My Channel</a>
-        </section>
-
-        <section id="instagram" class="content hidden">
-            <h2>My Instagram Work</h2>
-            <p>Here are my most popular and recent posts.</p>
-            <a href="#" target="_blank">Visit My Instagram</a>
-        </section>
-
-        <section id="others" class="content hidden">
-            <h2>Contact Information</h2>
+    <a href="https://www.youtube.com/@delenquentmusiq" target="_blank">Visit My YouTube Channel</a>
+</section>       
+      <section id="others" class="content">
+            <div class="section-header">
+                <h2>Contact Information</h2>
+                <div class="underline"></div>
+            </div>
             <p>Business Number: (Your number here)</p>
             <p>Business Email: (Your email here)</p>
         </section>
